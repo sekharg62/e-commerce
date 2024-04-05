@@ -1,0 +1,33 @@
+.new-collection {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    background: linear-gradient(rgb(161, 161, 241), rgb(83, 255, 83));
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 100px;
+
+}
+
+.new-collection h1 {
+    columns: grey;
+    font-size: 40px;
+    font-weight: 600;
+
+}
+
+.new-collection hr {
+    width: 250px;
+    height: 5px;
+    border-radius: 10px;
+    background-color: rgb(208, 180, 18);
+
+}
+
+.collection {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 50px;
+    gap: 30px;
+}
