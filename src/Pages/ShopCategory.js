@@ -17,7 +17,7 @@ export default function ShopCategory(props) {
           Sort by <img src={dropdown} alt="" />
           <option value=""></option>
           <option value="">
-            Price
+           
           </option>
           
         </div>
